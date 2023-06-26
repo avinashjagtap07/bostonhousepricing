@@ -1,0 +1,16 @@
+=>git config --global user.name "Avinsh Jagtap"
+=>git config --global user.email "avinashjagtap07@gmail.com"
+
+# upload and check file and upload status to git repository
+=>git add requirements.txt
+=>git status
+
+# add all files to push to github repository
+=>git add .			( git add "space" .(dot) to add all files)
+=>git status
+
+# COMMIT( Pushes from local to staging environmnet)
+=>git commit -m "This commit includes requirements.txt and readme files"
+
+# git PUSH
+=>git push origin main
